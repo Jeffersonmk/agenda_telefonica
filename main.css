@@ -14,6 +14,9 @@
 .header-content h1 {
     margin-right: 20px; /* Espaçamento entre o texto e a imagem */
 }
+#imagem-de-telefone {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.40));
+}
 
 header h1 {
 font-family: 'Kavoon';
@@ -42,6 +45,15 @@ form {
 
 form input {
     margin-right: 35px;
+}
+
+input[type="text"], input[type="number"] {
+    background-color: #ffffff; /* Fundo branco */
+    border: 1px solid #000000; /* Borda preta */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px; /* Espaçamento interno */
+    width: 200px; /* Largura da caixa de texto */
+    box-sizing: border-box; /* Garante que a largura inclua padding e borda */
 }
 
 table {
