@@ -8,10 +8,23 @@
     display: flex;
     align-items: center; /* Alinha os itens verticalmente */
     justify-content: center; /* Alinha os itens para o centro */
+    margin-top: 30px; /* Adiciona uma margem superior de 20 pixels */
 }
 
 .header-content h1 {
     margin-right: 20px; /* Espaçamento entre o texto e a imagem */
+}
+
+header h1 {
+font-family: 'Kavoon';
+font-style: normal;
+font-weight: bolder;
+font-size: 48px;
+line-height: 60px;
+text-align: center;
+text-transform: capitalize;
+color: #3B6F97;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 body {
@@ -22,7 +35,27 @@ body {
     text-align: center;
 }
 
+form {
+    margin-top: 20px; /* Adiciona uma margem superior de 20 pixels */
+    margin-bottom: 30px; /* Adiciona uma margem inferior de 20 pixels */
+}
+
+form input {
+    margin-right: 35px;
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
+    border-collapse: collapse; /* Para garantir uma visualização consistente */
+    width: 30%;
 }
+
+thead, td {
+    text-align: left;
+}
+
+td {
+    padding: 5px; 
+}
+
